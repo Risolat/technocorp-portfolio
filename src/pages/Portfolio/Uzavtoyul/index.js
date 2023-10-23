@@ -1,13 +1,13 @@
 import React from "react";
 import back from "../../../assets/main/back.svg";
-import avtoyul from "../../../assets/portfolio/portfolio10.svg";
+import avtoyul from "../../../assets/portfolio/portfolio10.png";
 import avtoyul1 from "../../../assets/portfolio/avtoyul/1.png";
 import avtoyul2 from "../../../assets/portfolio/avtoyul/2.png";
 import avtoyul3 from "../../../assets/portfolio/avtoyul/3.png";
 import avtoyul4 from "../../../assets/portfolio/avtoyul/4.png";
 import avtoyul5 from "../../../assets/portfolio/avtoyul/big2.png";
-import portfolio3 from "../../../assets/portfolio/portfolio3.svg";
-import portfolio4 from "../../../assets/portfolio/portfolio4.svg";
+import portfolio3 from "../../../assets/portfolio/portfolio3.png";
+import portfolio4 from "../../../assets/portfolio/portfolio4.png";
 import figma from "../../../assets/portfolio/figms.svg";
 import { Link } from "react-router-dom";
 import Navbar from "../../../components/Navbar";

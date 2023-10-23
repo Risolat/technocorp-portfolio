@@ -1,13 +1,13 @@
 import React from "react";
 import back from "../../../assets/main/back.svg";
-import hudud from "../../../assets/portfolio/portfolio4.svg";
+import hudud from "../../../assets/portfolio/portfolio4.png";
 import hudud1 from "../../../assets/portfolio/hudud/1.png";
 import hudud2 from "../../../assets/portfolio/hudud/2.png";
 import hudud3 from "../../../assets/portfolio/hudud/3.png";
 import hudud4 from "../../../assets/portfolio/hudud/4.png";
 import hudud5 from "../../../assets/portfolio/hudud/big2.png";
-import portfolio3 from "../../../assets/portfolio/portfolio3.svg";
-import portfolio5 from "../../../assets/portfolio/portfolio5.svg";
+import portfolio3 from "../../../assets/portfolio/portfolio3.png";
+import portfolio5 from "../../../assets/portfolio/portfolio5.png";
 import figma from "../../../assets/portfolio/figms.svg";
 import { Link } from "react-router-dom";
 import Navbar from "../../../components/Navbar";

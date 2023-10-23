@@ -1,18 +1,18 @@
 import React from "react";
 import back from "../../assets/main/back.svg";
 import { Link } from "react-router-dom";
-import team from "../../assets/team/team.jpg";
-import team2 from "../../assets/team/team2.jpg";
-import team3 from "../../assets/team/team3.jpg";
-import team4 from "../../assets/team/team4.jpg";
-import team5 from "../../assets/team/team5.jpg";
-import team6 from "../../assets/team/team6.jpg";
-import team7 from "../../assets/team/team7.jpg";
-import team8 from "../../assets/team/team8.jpg";
-import team9 from "../../assets/team/team9.jpg";
-import team10 from "../../assets/team/team10.jpg";
-import team11 from "../../assets/team/team11.jpg";
-import team12 from "../../assets/team/team12.jpg";
+import team from "../../assets/team/team.jpeg";
+import team2 from "../../assets/team/team2.jpeg";
+import team3 from "../../assets/team/team3.jpeg";
+import team4 from "../../assets/team/team4.jpeg";
+import team5 from "../../assets/team/team5.jpeg";
+import team6 from "../../assets/team/team6.jpeg";
+import team7 from "../../assets/team/team7.jpeg";
+import team8 from "../../assets/team/team8.jpeg";
+import team9 from "../../assets/team/team9.jpeg";
+import team10 from "../../assets/team/team10.jpeg";
+import team11 from "../../assets/team/team11.jpeg";
+import team12 from "../../assets/team/team12.jpeg";
 
 const Team = () => {
   const teamList = [
@@ -87,7 +87,7 @@ const Team = () => {
         {teamList.map((item) => (
           <li className="relative w-[260px] block bg-[#2B2B2B] mb-5 rounded-md flex flex-col items-center">
             <img
-              className="w-[250px] h-[280px] object-cover object-top rounded-md"
+              className=" object-cover object-top rounded-md"
               src={item.img}
               alt={item.name}
               width={250}

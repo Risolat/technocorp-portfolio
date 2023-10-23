@@ -1,13 +1,13 @@
 import React from "react";
 import back from "../../../assets/main/back.svg";
-import madaniyat from "../../../assets/portfolio/portfolio3.svg";
+import madaniyat from "../../../assets/portfolio/portfolio3.png";
 import madaniyat1 from "../../../assets/portfolio/madaniyat/1.png";
 import madaniyat2 from "../../../assets/portfolio/madaniyat/2.png";
 import madaniyat3 from "../../../assets/portfolio/madaniyat/3.png";
 import madaniyat4 from "../../../assets/portfolio/madaniyat/4.png";
 import madaniyat5 from "../../../assets/portfolio/madaniyat/big2.png";
-import portfolio5 from "../../../assets/portfolio/portfolio5.svg";
-import portfolio4 from "../../../assets/portfolio/portfolio4.svg";
+import portfolio5 from "../../../assets/portfolio/portfolio5.png";
+import portfolio4 from "../../../assets/portfolio/portfolio4.png";
 import figma from "../../../assets/portfolio/figms.svg";
 import { Link } from "react-router-dom";
 import Navbar from "../../../components/Navbar";

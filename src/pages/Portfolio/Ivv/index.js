@@ -1,13 +1,13 @@
 import React from "react";
 import back from "../../../assets/main/back.svg";
-import ivv from "../../../assets/portfolio//portfolio1.svg";
+import ivv from "../../../assets/portfolio//portfolio.png";
 import ivv1 from "../../../assets/portfolio/ivv/1.png";
 import ivv2 from "../../../assets/portfolio/ivv/2.png";
 import ivv3 from "../../../assets/portfolio/ivv/3.png";
 import ivv4 from "../../../assets/portfolio/ivv/4.png";
 import ivv5 from "../../../assets/portfolio/ivv/big2.png";
-import portfolio3 from "../../../assets/portfolio/portfolio3.svg";
-import portfolio4 from "../../../assets/portfolio/portfolio4.svg";
+import portfolio3 from "../../../assets/portfolio/portfolio3.png";
+import portfolio4 from "../../../assets/portfolio/portfolio4.png";
 import figma from "../../../assets/portfolio/figms.svg";
 import { Link } from "react-router-dom";
 import Navbar from "../../../components/Navbar";

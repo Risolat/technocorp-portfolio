@@ -1,13 +1,13 @@
 import React from "react";
 import back from "../../../assets/main/back.svg";
-import innofund from "../../../assets/portfolio/portfolio9.svg";
+import innofund from "../../../assets/portfolio/portfolio9.png";
 import innofund1 from "../../../assets/portfolio/innofund/1.png";
 import innofund2 from "../../../assets/portfolio/innofund/2.png";
 import innofund3 from "../../../assets/portfolio/innofund/3.png";
 import innofund4 from "../../../assets/portfolio/innofund/4.png";
 import innofund5 from "../../../assets/portfolio/innofund/big2.png";
-import portfolio3 from "../../../assets/portfolio/portfolio3.svg";
-import portfolio from "../../../assets/portfolio/portfolio1.svg";
+import portfolio3 from "../../../assets/portfolio/portfolio3.png";
+import portfolio from "../../../assets/portfolio/portfolio.png";
 import figma from "../../../assets/portfolio/figms.svg";
 import { Link } from "react-router-dom";
 import Navbar from "../../../components/Navbar";

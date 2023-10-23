@@ -1,13 +1,13 @@
 import React from "react";
 import back from "../../../assets/main/back.svg";
-import adliya from "../../../assets/portfolio/portfolio2.svg";
+import adliya from "../../../assets/portfolio/portfolio2.png";
 import adliya1 from "../../../assets/portfolio/adliya/1.png";
 import adliya2 from "../../../assets/portfolio/adliya/2.png";
 import adliya3 from "../../../assets/portfolio/adliya/3.png";
 import adliya4 from "../../../assets/portfolio/adliya/4.png";
 import adliya5 from "../../../assets/portfolio/adliya/big2.png";
-import portfolio3 from "../../../assets/portfolio/portfolio3.svg";
-import portfolio4 from "../../../assets/portfolio/portfolio4.svg";
+import portfolio3 from "../../../assets/portfolio/portfolio3.png";
+import portfolio4 from "../../../assets/portfolio/portfolio4.png";
 import figma from "../../../assets/portfolio/figms.svg";
 import { Link } from "react-router-dom";
 import Navbar from "../../../components/Navbar";
