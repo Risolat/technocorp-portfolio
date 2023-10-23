@@ -1,6 +1,6 @@
 import React from "react";
 import back from "../../../assets/main/back.svg";
-import uzarxiv from "../../../assets/portfolio/uzarxiv/big1.svg";
+import uzarxiv from "../../../assets/portfolio/uzarxiv/big1.png";
 import uzarxiv1 from "../../../assets/portfolio/uzarxiv/1.png";
 import uzarxiv2 from "../../../assets/portfolio/uzarxiv/2.png";
 import uzarxiv3 from "../../../assets/portfolio/uzarxiv/3.png";
