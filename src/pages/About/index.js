@@ -56,7 +56,7 @@ const About = () => {
           <p className="service-title text-center text-[18px]">
             Bizning Maqsad
           </p>
-          <p className="text-[18px] max-w-lg mx-auto my-0 leading-6 font-medium text-center">
+          <p className="text-[20px] max-w-lg mx-auto my-0 leading-6 font-medium text-center">
             Axborot texnologiyalar yordamida insonlar hayotini yengillashtirish
             va ularning muammolariga yechim berish
           </p>
