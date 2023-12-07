@@ -17,14 +17,14 @@ const Ivv = () => {
     <div>
       <Navbar />
       <div>
-        <div className="flex items-start justify-between mb-[30px] mx-[24px]">
-          <Link to="/portfolio" className="flex items-center">
+        <div className="flex items-start justify-between mb-[30px] ml-[24px]">
+          <Link to="/portfolio" className="flex items-center mb-3">
             <img src={back} alt="back" className="mr-2" />
             <p className="portfolio-inner-subtitle">
               “E-voyaga yetmaganlar” axborot tizimi
             </p>
           </Link>
-          <div>
+          <div className="hidden md:block">
             <p className="mb-2 text-right">Buyurtma beruvchi</p>
             <p className="portfolio-green-text text-right">
               O‘zbekiston Respublikasi Ichki ishlar vazirligi
@@ -40,12 +40,12 @@ const Ivv = () => {
           />
         </div>
         <div className="mx-[24px]">
-          <div className="flex justify-between items-start my-[50px]">
-            <div className="flex items-center w-[35%]">
+          <div className="flex flex-col md:flex-row justify-between items-start my-[50px]">
+            <div className="flex items-center w-full md:w-[35%]">
               <span className="w-[42px] h-[3px] rounded bg-[#D9D9D9] mr-[20px]"></span>
-              <p className="portfolio-inner-purpose-title">Loyiha maqsadi</p>
+              <p className="portfolio-inner-purpose-title mb-2">Loyiha maqsadi</p>
             </div>
-            <div className="w-[65%]">
+            <div className="w-full md:w-[65%]">
               <p className="portfolio-inner-purpose-text px-4">
                 Voyaga yetmagan va ota onasi qarovsiz qolgan bolalarni davlat
                 qamroviga olish tizimni avtomatlashtirish qarovsiz qolgan
@@ -57,16 +57,16 @@ const Ivv = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-center justify-between">
-            <img src={ivv1} alt="ivv" className="w-[45%] h-[45%]" />
-            <img src={ivv2} alt="ivv" className="w-[45%] h-[45%]" />
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            <img src={ivv1} alt="ivv" className="w-full md:w-[45%] mb-5 h-[45%]" />
+            <img src={ivv2} alt="ivv" className="w-full md:w-[45%] h-[45%]" />
           </div>
-          <div className="flex justify-between items-start my-[50px]">
-            <div className="flex items-center w-[35%]">
+          <div className="flex flex-col md:flex-row justify-between items-start my-[50px]">
+            <div className="flex items-center w-full md:w-[35%]">
               <span className="w-[42px] h-[3px] rounded bg-[#D9D9D9] mr-[20px]"></span>
-              <p className="portfolio-inner-purpose-title">Loyiha vazifasi</p>
+              <p className="portfolio-inner-purpose-title mb-2">Loyiha vazifasi</p>
             </div>
-            <div className="w-[65%]">
+            <div className="w-full md:w-[65%]">
               <p className="portfolio-inner-purpose-text px-4">
                 Markazga qabul qilingan bola bilan yakka tartibdagi proﬁlaktik
                 tadbirlarni sifatli tashkil etish uchun bolaning Markazgacha
@@ -79,23 +79,23 @@ const Ivv = () => {
           <div className="w-full">
             <img src={ivv5} alt="ivv" className="w-full" />
           </div>
-          <div className="flex justify-between items-start my-[50px]">
-            <div className="flex items-center w-[35%]">
+          <div className="flex flex-col md:flex-row justify-between items-start my-[50px]">
+            <div className="flex items-center w-full md:w-[35%]">
               <span className="w-[42px] h-[3px] rounded bg-[#D9D9D9] mr-[20px]"></span>
-              <p className="portfolio-inner-purpose-title">
+              <p className="portfolio-inner-purpose-title mb-2">
                 Loyiha funksiyalari
               </p>
             </div>
-            <div className="w-[65%]">
+            <div className="w-full md:w-[65%]">
               <p className="portfolio-inner-purpose-text px-4">
                 Qarovsiz qolgan bollarni aniqlashva ularning yagona bazasini
                 shakllantirish
               </p>
             </div>
           </div>
-          <div className="flex items-center justify-between">
-            <img src={ivv3} alt="ivv" className="w-[45%] h-[45%]" />
-            <img src={ivv4} alt="ivv" className="w-[45%] h-[45%]" />
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            <img src={ivv3} alt="ivv" className="w-full md:w-[45%] mb-5 h-[45%]" />
+            <img src={ivv4} alt="ivv" className="w-full md:w-[45%] h-[45%]" />
           </div>
           <div className="my-[50px]">
             {/* <div className="flex items-center mb-5">
@@ -112,8 +112,8 @@ const Ivv = () => {
             </div> */}
           </div>
           <p className="portfolio-inner-text">O‘xshash proyektlar</p>
-          <div className="flex flex-wrap justify-between w-full">
-            <Link to="/portfolio/madaniyat" className="w-[48%]">
+          <div className="flex flex-col md:flex-row flex-wrap justify-between w-full">
+            <Link to="/portfolio/madaniyat" className="w-full md:w-[48%]">
               <img src={portfolio3} alt="qwerty" className="rounded-xl" />
               <p className="portfolio-item-link">
                 O‘zbekiston Respublikasi Madaniyat Vazirligi
@@ -122,7 +122,7 @@ const Ivv = () => {
                 “Madaniyat markazlari” yagona portali
               </p>
             </Link>
-            <Link to="/portfolio/hududiyElektr" className="w-[48%]">
+            <Link to="/portfolio/hududiyElektr" className="w-full md:w-[48%]">
               <img src={portfolio4} alt="qwerty" className="rounded-xl" />
               <p className="portfolio-item-link">
                 “Hududiy elektr tarmoqlari” AJ

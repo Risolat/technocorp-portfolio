@@ -25,7 +25,7 @@ const Agrolizing = () => {
               beriladigan texnikalar uchun mobil ilova
             </p>
           </Link>
-          <div>
+          <div className="hidden md:block">
             <p className="mb-2 text-right">Buyurtma beruvchi</p>
             <p className="portfolio-green-text text-right">
               “O‘zagrolizing” Aksiyadorlik jamiyati
@@ -41,12 +41,12 @@ const Agrolizing = () => {
           />
         </div>
         <div className="mx-[24px]">
-          <div className="flex justify-between items-start my-[50px]">
-            <div className="flex items-center w-[35%]">
+          <div className="flex flex-col md:flex-row justify-between items-start my-[50px]">
+            <div className="flex items-center w-full md:w-[35%] mb-2">
               <span className="w-[42px] h-[3px] rounded bg-[#D9D9D9] mr-[20px]"></span>
               <p className="portfolio-inner-purpose-title">Loyiha maqsadi</p>
             </div>
-            <div className="w-[65%]">
+            <div className="w-full md:w-[65%]">
               <p className="portfolio-inner-purpose-text px-4">
                 Lizing asosida beriladigan texnikalar, lizing shartlari va
                 boshqa maʼlumotlarni keng ommaga yoritish, mobil ilovadan
@@ -57,24 +57,24 @@ const Agrolizing = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col md:flex-row items-center justify-between">
             <img
               src={agrolizing1}
               alt="agrolizing"
-              className="w-[45%] h-[45%] rounded-lg"
+              className="w-full md:w-[45%] h-[45%] mb-5 rounded-lg"
             />
             <img
               src={agrolizing2}
               alt="agrolizing"
-              className="w-[45%] h-[45%] rounded-lg"
+              className="w-full md:w-[45%] h-[45%] rounded-lg"
             />
           </div>
-          <div className="flex justify-between items-start my-[50px]">
-            <div className="flex items-center w-[35%]">
+          <div className="flex flex-col md:flex-row justify-between items-start my-[50px]">
+            <div className="flex items-center w-full md:w-[35%] mb-2">
               <span className="w-[42px] h-[3px] rounded bg-[#D9D9D9] mr-[20px]"></span>
               <p className="portfolio-inner-purpose-title">Loyiha vazifasi</p>
             </div>
-            <div className="w-[65%]">
+            <div className="w-full md:w-[65%]">
               <p className="portfolio-inner-purpose-text px-4">
                 Mobil ilova orqali ro‘yxatdan o‘tgan fermer xo‘jaliklari va
                 yuridik shaxslardan qishloq xo‘jaligi texnikalari uchun
@@ -86,49 +86,37 @@ const Agrolizing = () => {
           <div className="w-full">
             <img src={agrolizing5} alt="agrolizing" className="w-full" />
           </div>
-          <div className="flex justify-between items-start my-[50px]">
-            <div className="flex items-center w-[35%]">
+          <div className="flex flex-col md:flex-row justify-between items-start my-[50px]">
+            <div className="flex items-center w-full md:w-[35%] mb-2">
               <span className="w-[42px] h-[3px] rounded bg-[#D9D9D9] mr-[20px]"></span>
               <p className="portfolio-inner-purpose-title">
                 Loyiha funksiyalari
               </p>
             </div>
-            <div className="w-[65%]">
+            <div className="w-full md:w-[65%]">
               <p className="portfolio-inner-purpose-text px-4">
                 {/* agrolizing vazirligi faoliyati, yangiliklari shaffoﬂigi
                 yuzasidan doimiy ravishda ma'lumotlar berib borish */}
               </p>
             </div>
           </div>
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col md:flex-row items-center justify-between">
             <img
               src={agrolizing3}
               alt="agrolizing"
-              className="w-[45%] h-[45%] rounded-lg"
+              className="w-full md:w-[45%] h-[45%] mb-5 rounded-lg"
             />
             <img
               src={agrolizing4}
               alt="agrolizing"
-              className="w-[45%] h-[45%] rounded-lg"
+              className="w-full md:w-[45%] h-[45%] rounded-lg"
             />
           </div>
           <div className="my-[50px]">
-            {/* <div className="flex items-center mb-5">
-              <span className="w-[42px] h-[3px] rounded bg-[#D9D9D9] mr-[20px]"></span>
-              <p className="portfolio-inner-purpose-title">
-                Ishlatilgan texnalogiyalar
-              </p>
-            </div>
-            <div className="flex items-center">
-              <img src={figma} alt="figma" className="mr-3" />
-              <img src={figma} alt="figma" className="mr-3" />
-              <img src={figma} alt="figma" className="mr-3" />
-              <img src={figma} alt="figma" className="mr-3" />
-            </div> */}
           </div>
           <p className="portfolio-inner-text">O‘xshash proyektlar</p>
-          <div className="flex flex-wrap justify-between w-full">
-            <Link to="/portfolio/madaniyat" className="w-[48%]">
+          <div className="flex flex-col md:flex-row flex-wrap justify-between w-full">
+            <Link to="/portfolio/madaniyat" className="w-full md:w-[48%]">
               <img src={portfolio3} alt="qwerty" className="rounded-xl" />
               <p className="portfolio-item-link">
                 O‘zbekiston Respublikasi Madaniyat Vazirligi
@@ -137,7 +125,7 @@ const Agrolizing = () => {
                 “Madaniyat markazlari” yagona portali
               </p>
             </Link>
-            <Link to="/portfolio/hududiyElektr" className="w-[48%]">
+            <Link to="/portfolio/hududiyElektr" className="w-full md:w-[48%]">
               <img src={portfolio4} alt="qwerty" className="rounded-xl" />
               <p className="portfolio-item-link">
                 “Hududiy elektr tarmoqlari” AJ

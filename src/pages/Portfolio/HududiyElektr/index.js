@@ -24,7 +24,7 @@ const HududiyElektr = () => {
               “Energetikaning virtual ish stoli” axborot tizimi
             </p>
           </Link>
-          <div>
+          <div className="hidden md:block">
             <p className="mb-2 text-right">Buyurtma beruvchi</p>
             <p className="portfolio-green-text text-right">
               “Hududiy elektr tarmoqlari” AJ
@@ -40,12 +40,12 @@ const HududiyElektr = () => {
           />
         </div>
         <div className="mx-[24px]">
-          <div className="flex justify-between items-start my-[50px]">
-            <div className="flex items-center w-[35%]">
+          <div className="flex flex-col md:flex-row justify-between items-start my-[50px]">
+            <div className="flex items-center w-full md:w-[35%] mb-2">
               <span className="w-[42px] h-[3px] rounded bg-[#D9D9D9] mr-[20px]"></span>
               <p className="portfolio-inner-purpose-title">Loyiha maqsadi</p>
             </div>
-            <div className="w-[65%]">
+            <div className="w-full md:w-[65%]">
               <p className="portfolio-inner-purpose-text px-4">
                 Axborot tizimini ishlab chiqishdan maqsad Jamiyat faoliyatidagi
                 energetika obyektlarining qurilishva taʼmirlash bilan bogʻliq
@@ -53,16 +53,16 @@ const HududiyElektr = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-center justify-between">
-            <img src={hudud1} alt="hudud" className="w-[45%] h-[45%]" />
-            <img src={hudud2} alt="hudud" className="w-[45%] h-[45%]" />
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            <img src={hudud1} alt="hudud" className="w-full md:w-[45%] mb-5 h-[45%]" />
+            <img src={hudud2} alt="hudud" className="w-full md:w-[45%] h-[45%]" />
           </div>
-          <div className="flex justify-between items-start my-[50px]">
-            <div className="flex items-center w-[35%]">
+          <div className="flex flex-col md:flex-row justify-between items-start my-[50px]">
+            <div className="flex items-center w-full md:w-[35%] mb-2">
               <span className="w-[42px] h-[3px] rounded bg-[#D9D9D9] mr-[20px]"></span>
               <p className="portfolio-inner-purpose-title">Loyiha vazifasi</p>
             </div>
-            <div className="w-[65%]">
+            <div className="w-full md:w-[65%]">
               <p className="portfolio-inner-purpose-text px-4">
                 “Hududiy elektr tarmoqlari” AJ faoliyatidagi energetika
                 obyektlarining qurilish va taʼmirlash bilan bogʻliq boʻlgan
@@ -73,41 +73,29 @@ const HududiyElektr = () => {
           <div className="w-full">
             <img src={hudud5} alt="hudud" className="w-full" />
           </div>
-          <div className="flex justify-between items-start my-[50px]">
-            <div className="flex items-center w-[35%]">
+          <div className="flex flex-col md:flex-row justify-between items-start my-[50px]">
+            <div className="flex items-center w-full md:w-[35%] mb-2">
               <span className="w-[42px] h-[3px] rounded bg-[#D9D9D9] mr-[20px]"></span>
               <p className="portfolio-inner-purpose-title">
                 Loyiha funksiyalari
               </p>
             </div>
-            <div className="w-[65%]">
+            <div className="w-full md:w-[65%]">
               <p className="portfolio-inner-purpose-text px-4">
                 Energetika obyektlarining qurilish va taʼmirlash bilan bogʻliq
                 boʻlgan jarayonlarni raqamlashtirish
               </p>
             </div>
           </div>
-          <div className="flex items-center justify-between">
-            <img src={hudud3} alt="hudud" className="w-[45%] h-[45%]" />
-            <img src={hudud4} alt="hudud" className="w-[45%] h-[45%]" />
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            <img src={hudud3} alt="hudud" className="w-full md:w-[45%] h-[45%] mb-5" />
+            <img src={hudud4} alt="hudud" className="w-full md:w-[45%] h-[45%]" />
           </div>
           <div className="my-[50px]">
-            {/* <div className="flex items-center mb-5">
-              <span className="w-[42px] h-[3px] rounded bg-[#D9D9D9] mr-[20px]"></span>
-              <p className="portfolio-inner-purpose-title">
-                Ishlatilgan texnalogiyalar
-              </p>
-            </div>
-            <div className="flex items-center">
-              <img src={figma} alt="figma" className="mr-3" />
-              <img src={figma} alt="figma" className="mr-3" />
-              <img src={figma} alt="figma" className="mr-3" />
-              <img src={figma} alt="figma" className="mr-3" />
-            </div> */}
           </div>
           <p className="portfolio-inner-text">O‘xshash proyektlar</p>
-          <div className="flex flex-wrap justify-between w-full">
-            <Link to="/portfolio/uzarxiv" className="w-[48%]">
+          <div className="flex flex-col md:flex-row flex-wrap justify-between w-full">
+            <Link to="/portfolio/uzarxiv" className="w-full md:w-[48%]">
               <img src={portfolio3} alt="qwerty" className="rounded-xl" />
               <p className="portfolio-item-link">
                 O‘zbekiston Respublikasi Madaniyat Vazirligi
@@ -116,7 +104,7 @@ const HududiyElektr = () => {
                 “Madaniyat markazlari” yagona portali
               </p>
             </Link>
-            <Link to="/portfolio/hududiyElektr" className="w-[48%]">
+            <Link to="/portfolio/hududiyElektr" className="w-full md:w-[48%]">
               <img src={portfolio5} alt="qwerty" className="rounded-xl" />
               <p className="portfolio-item-link">“O‘zarxiv” agentligi</p>
               <p className="portfolio-item-text">

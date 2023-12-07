@@ -53,9 +53,9 @@ const Services = () => {
         <img src={back} alt="back" />
         <p className="subtitle">Bizning xizmatlar</p>
       </Link>
-      <ul className="flex flex-wrap justify-between">
+      <ul className="flex flex-col md:flex-row flex-wrap justify-between">
         {services.map((item) => (
-          <li className="w-[48%] bg-[#2B2B2B] mb-5 p-5">
+          <li className="md:w-[48%] sm:w-full bg-[#2B2B2B] mb-5 p-5">
             <img src={item.img} alt={item.title} className="mb-4" />
             <p className="mb-3 service-title">{item.title}</p>
             <p>{item.description}</p>

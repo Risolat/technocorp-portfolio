@@ -1,7 +1,6 @@
 import React from "react";
 import back from "../../assets/main/back.svg";
 import team from "../../assets/main/team.svg";
-import teamPng from "../../assets/main/team-png.png";
 import { Link } from "react-router-dom";
 
 const About = () => {
@@ -40,7 +39,7 @@ const About = () => {
       </div>
       <ul className="w-full flex justify-between flex-wrap">
         {about.map((item) => (
-          <li className="w-[48%] mx-1 p-4 mb-4 bg-[#7EDD93] rounded-md">
+          <li className="md:w-[48%] w-full mx-1 p-4 mb-4 bg-[#7EDD93] rounded-md">
             <div className="w-full">
               <p className="about-count mb-3">{item.count}</p>
               <p className="text-[19px] leading-6 font-medium text-[#222] mb-3">
@@ -52,11 +51,11 @@ const About = () => {
       </ul>
       <div className="relative w-full h-full">
         <img src={team} alt="team" className="w-full h-full" />
-        <div className="absolute block bottom-0 py-3 w-[94%] mx-auto -translate-y-[2/4] left-0 right-0 rounded-t-md z-1 bg-[#17983F]">
+        <div className="md:absolute sm:relative block bottom-0 py-3 w-[94%] mx-auto -translate-y-[2/4] left-0 right-0 rounded-t-md z-1 bg-[#17983F]">
           <p className="service-title text-center text-[18px]">
             Bizning Maqsad
           </p>
-          <p className="text-[20px] max-w-lg mx-auto my-0 leading-6 font-medium text-center">
+          <p className="text-[16px] md:text-[20px] max-w-lg mx-auto my-0 leading-5 md:leading-6 font-medium text-center px-2">
             Axborot texnologiyalar yordamida insonlar hayotini yengillashtirish
             va ularning muammolariga yechim berish
           </p>

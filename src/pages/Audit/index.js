@@ -49,9 +49,9 @@ const Audit = () => {
         <img src={back} alt="back" />
         <p className="subtitle">Akt va ax audit</p>
       </Link>
-      <ul className="flex flex-wrap justify-between">
+      <ul className="flex flex-col md:flex-row flex-wrap justify-between">
         {auditList.map((item) => (
-          <li className="w-[48%] bg-[#2B2B2B] mb-5 p-5 border border-[#757575] rounded-lg flex flex-col items-center">
+          <li className="w-full md:w-[48%] bg-[#2B2B2B] mb-5 p-5 border border-[#757575] rounded-lg flex flex-col items-center">
             <img src={item.img} alt={item.title} className="mb-4" />
             <p className="mb-3 audit-title text-center">{item.title}</p>
           </li>

@@ -19,14 +19,6 @@ body {
   justify-content: space-between;
   width: 20%;
 }
-.subtitle{
-  margin-left: 10px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 59px;
-  text-transform: uppercase;
-}
 .service-title{
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -174,22 +166,6 @@ body {
   line-height: 30px;
   color: rgba(0, 190, 145, 1);
 }
-.block-tabs{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-right: 10px;
-  margin-bottom: 20px;
-}
-.tabs{
-  width: 22%;
-  padding: 8px 0;
-  margin: 5px auto;
-  cursor: pointer;
-  text-align: center;
-  background-color: rgba(67, 67, 67, 1);
-}
 .active-content{
   display: block;
 }
@@ -217,12 +193,7 @@ body {
   font-size: 22px;
   line-height: 30px;
 }
-.portfolio-inner-subtitle{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
-}
+
 .portfolio-green-text{
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -315,7 +286,6 @@ body {
   background: rgb(75,231,128);
   background: linear-gradient(90deg, rgba(75,231,128,1) 0%, rgba(78,239,230,1) 100%);
 }
-
 @media screen and (max-width: 1120px) {
   .main-img{
     height: 300px;
@@ -354,7 +324,6 @@ body {
     height: 220px;
   }
   .main-img-fifth{
-
     height: 220px;
   }
   .main-img-sixth{
@@ -364,3 +333,48 @@ body {
     width: 40%;
   }
 }
+
+@media (min-width: 200px){
+  .subtitle{
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+  .portfolio-inner-subtitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .block-tabs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  .tabs{
+    width: 100%;
+    padding: 8px 0;
+    margin: 5px auto;
+    cursor: pointer;
+    text-align: center;
+    background-color: rgba(67, 67, 67, 1);
+  }
+}
+@media (min-width: 600px){
+  .subtitle{
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .portfolio-inner-subtitle{
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+

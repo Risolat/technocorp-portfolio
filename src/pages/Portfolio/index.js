@@ -208,17 +208,17 @@ const Portfolio = () => {
           <img src={back} alt="back" />
           <p className="subtitle">Portfolio</p>
         </Link>
-        <div>
+        <div className="hidden md:block">
           <p className="portfolio-text">100+ loyihalar</p>
         </div>
       </div>
 
-      <div className="block-tabs mt-[20px] ">
+      <div className="block-tabs md:flex-row mt-[20px] ">
         <div
           className={
             toggleState === 1
-              ? "tabs active-tabs opacity-1 rounded-lg"
-              : "tabs rounded-lg"
+              ? "tabs active-tabs opacity-1 rounded-lg md:w-[22%]"
+              : "tabs rounded-lg md:w-[22%]"
           }
           onClick={() => toggleTab(1)}
         >
@@ -227,8 +227,8 @@ const Portfolio = () => {
         <div
           className={
             toggleState === 2
-              ? "tabs active-tabs opacity-1 rounded-lg"
-              : "tabs rounded-lg"
+              ? "tabs active-tabs opacity-1 rounded-lg md:w-[22%]"
+              : "tabs rounded-lg md:w-[22%]"
           }
           onClick={() => toggleTab(2)}
         >
@@ -237,8 +237,8 @@ const Portfolio = () => {
         <div
           className={
             toggleState === 3
-              ? "tabs active-tabs opacity-1 rounded-lg"
-              : "tabs rounded-lg"
+              ? "tabs active-tabs opacity-1 rounded-lg md:w-[22%]"
+              : "tabs rounded-lg md:w-[22%]"
           }
           onClick={() => toggleTab(3)}
         >
@@ -247,8 +247,8 @@ const Portfolio = () => {
         <div
           className={
             toggleState === 4
-              ? "tabs active-tabs opacity-1 rounded-lg"
-              : "tabs rounded-lg"
+              ? "tabs active-tabs opacity-1 rounded-lg md:w-[22%]"
+              : "tabs rounded-lg md:w-[22%]"
           }
           onClick={() => toggleTab(4)}
         >
@@ -258,9 +258,9 @@ const Portfolio = () => {
 
       <div className="content-tabs">
         <div className={toggleState === 1 ? "block" : "hidden"}>
-          <div className="flex flex-wrap justify-between">
+          <div className="flex flex-col md:flex-row flex-wrap justify-between">
             {portfolioAll.map((item) => (
-              <Link to={`/portfolio/${item.link}`} className="w-[48%]">
+              <Link to={`/portfolio/${item.link}`} className="w-full md:w-[48%]">
                 <img src={item.img} alt={item.text} className="rounded-xl " />
                 <p className="portfolio-item-link">{item.text}</p>
                 <p className="portfolio-item-text">{item.clientName} </p>
@@ -269,9 +269,9 @@ const Portfolio = () => {
           </div>
         </div>
         <div className={toggleState === 2 ? "block" : "hidden"}>
-          <div className="flex flex-wrap justify-between">
+          <div className="flex flex-col md:flex-row flex-wrap justify-between">
             {portfolioWeb.map((item) => (
-              <Link to={`/portfolio/${item.link}`} className="w-[48%]">
+              <Link to={`/portfolio/${item.link}`} className="w-full md:w-[48%]">
                 <img src={item.img} alt={item.text} className="rounded-xl " />
                 <p className="portfolio-item-link line-clamp-2 truncate">
                   {item.text}
@@ -282,9 +282,9 @@ const Portfolio = () => {
           </div>
         </div>
         <div className={toggleState === 3 ? "block" : "hidden"}>
-          <div className="flex flex-wrap justify-between">
+          <div className="flex flex-col md:flex-row flex-wrap justify-between">
             {portfolioMobile.map((item) => (
-              <Link to={`/portfolio/${item.link}`} className="w-[48%]">
+              <Link to={`/portfolio/${item.link}`} className="w-full md:w-[48%]">
                 <img src={item.img} alt={item.text} className="rounded-xl " />
                 <p className="portfolio-item-link line-clamp-2 truncate">
                   {item.text}
@@ -295,9 +295,9 @@ const Portfolio = () => {
           </div>
         </div>
         <div className={toggleState === 4 ? "block" : "hidden"}>
-          <div className="flex flex-wrap justify-between">
+          <div className="flex flex-col md:flex-row flex-wrap justify-between">
             {portfolioCrm.map((item) => (
-              <Link to={`/portfolio/${item.link}`} className="w-[48%]">
+              <Link to={`/portfolio/${item.link}`} className="w-full md:w-[48%]">
                 <img src={item.img} alt={item.text} className="rounded-xl " />
                 <p className="portfolio-item-link line-clamp-2 truncate">
                   {item.text}

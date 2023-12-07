@@ -14,44 +14,44 @@ const Main = () => {
     <div>
       <div>
         <div className="flex flex-col py-5">
-          <div className="flex justify-between mb-5">
-            <Link to="/services" className="block w-[58%] h-[100%]">
+          <div className="flex flex-col md:flex-row justify-between">
+            <Link to="/services" className="block md:w-[58%] w-[100%] h-[100%] mb-5">
               <div className="main-img">
                 <p className="main-text">Bizning xizmatlar</p>
               </div>
             </Link>
-            <Link to="/about" className="block w-[38%] h-[100%]">
+            <Link to="/about" className="block w-[100%] md:w-[38%] h-[100%] mb-5">
               <div className="main-img-second">
                 <p className="main-text">Biz haqimizda</p>
               </div>
             </Link>
           </div>
-          <div className="flex justify-between mb-5">
-            <Link to="/partners" className="block w-[38%] h-[100%]">
+          <div className="flex flex-col md:flex-row justify-between">
+            <Link to="/partners" className="block w-[100%] md:w-[38%] h-[100%] mb-5">
               <div className="main-img-third">
                 <p className="main-text">hamkorlarimiz</p>
               </div>
             </Link>
-            <Link to="/portfolio" className="block w-[58%] h-[100%]">
+            <Link to="/portfolio" className="block md:w-[58%] w-[100%] h-[100%] mb-5">
               <div className="main-img-fourth">
                 <p className="main-text">Portfolio</p>
               </div>
             </Link>
           </div>
-          <div className="flex justify-between mb-5">
-            <Link to="/team" className="block w-[58%] h-[100%]">
+          <div className="flex flex-col md:flex-row justify-between">
+            <Link to="/team" className="block md:w-[58%] w-[100%] h-[100%] mb-5">
               <div className="main-img-fifth">
                 <p className="main-text">Bizning jamoa</p>
               </div>
             </Link>
-            <Link to="/audit" className="block w-[38%] h-[100%]">
+            <Link to="/audit" className="block w-[100%] md:w-[38%] h-[100%] mb-5">
               <div className="main-img-sixth">
                 <p className="main-text">Akt va AX Audit</p>
               </div>
             </Link>
           </div>
         </div>
-        <div className="flex justify-between items-center">
+        <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="contacts">Kontaktlar</p>
           <p className="portfolio-inner-purpose-title">+998 (55) 501-43-00</p>
         </div>

@@ -57,9 +57,9 @@ const Partners = () => {
         <img src={back} alt="back" />
         <p className="subtitle">hamkorlarimiz</p>
       </Link>
-      <ul className="flex flex-wrap justify-between">
+      <ul className="flex flex-col md:flex-row flex-wrap justify-between">
         {partnerList.map((item) => (
-          <li className="w-[48%] lg:w-[32%] block bg-[#2B2B2B] mb-5 py-[50px] border border-[#757575] rounded-md flex flex-col items-center">
+          <li className="w-full md:w-[48%] lg:w-[32%] block bg-[#2B2B2B] mb-5 py-[50px] border border-[#757575] rounded-md flex flex-col items-center">
             <img src={item.img} alt={item.title} className="mb-4" />
             <p className="mb-3 px-5 audit-title text-center">{item.title}</p>
           </li>

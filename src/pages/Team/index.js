@@ -87,7 +87,7 @@ const Team = () => {
         {teamList.map((item) => (
           <li className="relative w-[260px] block bg-[#2B2B2B] mb-5 rounded-md flex flex-col items-center">
             <img
-              className=" object-cover object-top rounded-md"
+              className="object-cover object-top rounded-md"
               src={item.img}
               alt={item.name}
               width={250}
